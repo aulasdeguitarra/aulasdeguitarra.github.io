@@ -1,0 +1,80 @@
+/*  Tablets amd PC 1024 to 1200px*/
+@media only screen and (max-width:1200px){
+    .row{ padding: 0 2%; }    
+}
+
+/*  Tablets from 768 to 1023px*/
+@media only screen and (max-width:1023px){
+    body{font-size: 17px;}
+    .row{ padding: 0 3%; } 
+    .contact-form {  width: 100% !important;}
+}
+@media screen and (min-width: 860px){.whatsapp {display: none;}}
+
+/* 481 to 768px*/
+@media only screen and (max-width:767px){
+    body{font-size: 16px;}
+    section{padding: 28px 1px;}
+    section img {width: 100%; height:auto;}
+    .boxc img {width: auto;}
+    .row{ padding: 0 4%; } 
+    .col{ width:100%;}
+    .logo  {float: none; width: auto; height: 36px !important; margin: 20px 5px;}
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {margin:8px 0;}
+    .footer-nav, .social-links { float: none; text-align: center; margin:10px 0;}
+    .footer-nav ul li {width: 100%;}
+    .footer-nav li a {  display: block;height:100%; width:100%;}
+    .footer-nav li{ display: block; padding: 5px;  border-bottom: 1px solid #666; width: 100%; height: 100%; }
+    .main-nav{display: none;}
+    .contact-form { width: 100%;}
+    .breadcrumbs { width: 100%; text-align: center; margin: 0 0 20px 0;}
+    h1 { font-size: 180%;}
+    h2 { font-size: 150%;}
+    .ico {width: auto;}
+    .sticky .main-nav { margin-top: 10px; }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 5px 0; }
+    .sticky .mobile-nav-icon { margin-top: 35px; }
+    .main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    .main-nav { float: left; margin-top: 10px; margin-left: 30px;}
+    .main-nav li { display: block;}
+    .main-nav li a:link,
+    .main-nav li a:visited { display: block; border: 0; padding: 10px 0; font-size: 100%; }
+}
+/* 0 to 480px*/
+@media only screen and (max-width:480px){
+    body{font-size: 15px;}
+    h1, h3, h4 {text-align: center;}
+    .vm h2 {text-align: center;}
+    h1 { font-size: 130%;}
+    h2 { font-size: 120%;}
+    section {width: 100%; height: auto;padding: 20px 0}
+    .boxc {margin: 10px 0; min-height:max-content; padding: 7% 3%;}
+    .boxc img {width: auto;}
+    .cinza img  {width: auto;}
+    .ico {width: auto;}
+    .btn {width: 100% !important; font-size: 100%;}
+    .main-nav { display: none; }
+    .main-nav { padding-bottom: 10px; margin: 15px 0 0 1px;}    
+    .main-nav li { display: block; margin-left: 12px;}
+    .main-nav li a:link,
+    .main-nav li a:visited { font-size: 90%;}
+    .share {text-align: center; margin: 35px 0;}
+    .share li { display: inline-block; margin-right: 11px;}
+    .btn:link,
+    .btn:visited { padding: 10px 20px; font-size: 17px;}
+    .footer-nav li a:link { font-size: 15px;}
+}
+
+.span_4_of_4 {width: 100%;}
+.span_3_of_4 {width: 74.6%;}
+.span_2_of_4 {width: 49.2%;}
+.span_1_of_4 {width: 23.8%;}
+
+@media only screen and (max-width: 480px) {
+
+}

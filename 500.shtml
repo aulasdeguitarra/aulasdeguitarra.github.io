@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="msapplication-config" content="none" />
+    <meta name="author" content="leandrocsguitar@gmail.com" />
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="queries.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <title>Página não encontrada</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row">
+                <a href="https://aulasdeguitarra.github.io/" title="Leandro de Souza - Professor de guitarra e violão"><img src="img/aulas-guitarra-violao.png" class="logo" alt="logotipo Leandro de Souza"></a>
+                <ul class="main-nav js--main-nav">
+                    <li><a href="https://aulasdeguitarra.github.io/">Home</a></li>
+                    <li><a href="https://aulasdeguitarra.github.io/biografia">Biografia</a></li>
+                    <li><a href="https://aulasdeguitarra.github.io/didatica">Didática</a></li>
+                    <li><a href="https://aulasdeguitarra.github.io/videos">Vídeos</a></li>
+                    <li><a href="https://aulasdeguitarra.github.io/aulas">Aulas</a></li>
+                    <li><a href="https://aulasdeguitarra.github.io/contato">Contato</a></li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon"><img src="img/icons/menu.png" width="30" height="30"></a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <section class="br">
+            <div class="row align-center">
+             <p class="big">500</p>
+                <h1>Página não encontrada</h1>
+                <p>Acesse o menu para encontrar o que procura</p>
+                 <p>Quer aprender a tocar guitarra ou violão, clique no link abaixo</p>
+                 <a class="btn btn-contato" href="contato.html"><img src="img/icons/contact.ico" class="ico" width="20" height="20" alt="icone contato"> Contato</a>
+            </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <h3>Aulas de guitarra e violão em domicílio</h3>
+                <ul class="footer-nav">
+                    <li><a href="https://aulasdeguitarra.github.io/">Home</a></li>
+                    <li><a href="https://aulasdeguitarra.github.io/biografia">Biografia</a></li>
+                    <li><a href="https://aulasdeguitarra.github.io/didatica">Didática</a></li>
+                    <li><a href="https://aulasdeguitarra.github.io/videos">Vídeos</a></li>
+                    <li><a href="https://aulasdeguitarra.github.io/aulas">Aulas</a></li>
+                    <li><a href="https://aulasdeguitarra.github.io/contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <h3>Redes sociais</h3>
+                    <li><a href="https://www.instagram.com/leandroprofguitar/" target="_blank"><img src="img/icons/logo-instagram.png" width="30" height="30" alt="Instagram"></a></li>
+                    <li><a href="https://www.tiktok.com/@leandrocsguitar" target="_blank"><img src="img/icons/logo-tiktok.png" width="30" height="30" alt="Tik Tok"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p><strong>Leandro de Souza</strong>
+            <br>Professor de guitarra e violão em domicílio<br>
+             Contato:  11 984893913<br> 
+             2006 - 2022
+              </p>
+            <p><img src="img/icons/html5.png" width="20" height="20" alt="html5"> <img src="img/icons/css3.png" width="20" height="20" alt="css3"> <img src="img/icons/js.png" width="20" height="20" alt="js"></p>
+            </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
